@@ -29,4 +29,5 @@ petrol2024.drop(columns = 'Price Difference').plot(kind = 'line')
 
 petrol.drop(columns = 'Price Difference').plot(kind = 'line')
 
+#displaying only the price difference column, since i excluded it earlier 
 petrol['Price Difference'].plot(kind = 'line')
